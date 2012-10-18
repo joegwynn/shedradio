@@ -1,0 +1,87 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Shed Radio</title>
+<link href="new_style.css" rel="stylesheet" type="text/css" />
+
+
+<link rel="icon" href="favicon.ico" type="image/x-icon"/>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
+
+
+</head>
+<body>
+
+<div id="holding_page">
+
+<div id="sidebar_radio">
+
+<img src="/new_img/holding_shed.png"/>
+
+<div id="shed_player">
+
+<img src="/new_img/next_show.png" alt="next show"/>
+<p class="date">16.10.2012</p>
+<a href="http://shedradioshed.listen2myradio.com/" id="listen_live">
+<img style="margin-bottom: 4px" src="/new_img/listen_live.png" alt="listen live"/></a>
+<img src="/new_img/time.png" alt="8 - 11pm"/>
+<?php include("sidebar.html"); ?>
+<div class="clear"></div>
+</div>
+</div>
+
+<div id="social_media">
+<a href="http://www.facebook.com/shedradio" target="_blank"><img src="/new_img/facebook.png" alt="Facebook" /></a>
+<a href="https://twitter.com/#!/shed_radio" target="_blank"><img src="/new_img/twitter.png" alt="Twitter" /></a>
+<a href="http://soundcloud.com/shed-radio" target="_blank"><img src="/new_img/soundcloud.png" alt="Soundcloud" /></a>
+<a href="http://vimeo.com/35533327" target="_blank"><img src="/new_img/vimeo.png" alt="Vimeo" /></a>
+</div>
+
+<div id="the_content">
+<p class="gradient_title">LINE UP</p>
+<ul id="line_up">
+<li><ul>
+<li class="date">16 OCT</li>
+<li>TBC</li>
+<li>Chansons De La Nuit Pt.2</li>
+<li>Swedish Meatballs</li>
+</ul>
+</li><li>
+<ul><li class="date">30 OCT</li>
+<li>Re-Sample</li>
+<li>TBC</li>
+<li>Kitch</li>
+</ul>
+</li><li>
+<ul><li class="date">13 NOV</li>
+<li>Re-Sample</li>
+<li>Amanath Audio</li>
+<li>TBC</li>
+</ul>
+</li><li>
+<ul><li class="date">27 NOV</li>
+<li>TBC</li>
+<li>TBC</li>
+<li>TBC</li>
+</ul></li>
+</ul>
+</div>
+
+<img src="/new_img/hold_message.png" alt="Website Coming Soon"/>
+</div>
+
+<script src="javascript/jquery.js" type="text/javascript"></script>
+<script type="text/javascript" src="javascript/jquery.jplayer.min.js"></script>
+<script type="text/javascript" src="javascript/player.js"></script>
+<script type="text/javascript">
+$('#listen_live').click(function(){
+			window.open('http://shedradioshed.listen2myradio.com/','SHED Radio | Listen Live','toolbar=0,scrollbars=1,location=0,statusbar=1,menubar=0,resizable=1,width=980,height=650,left = 50,top = 20');
+return false
+});
+</script>
+
+</body>
+
+
+</html>
